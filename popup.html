@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Popup</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="popup.css" rel="stylesheet">
+    <script src="popup.js"></script>
+  </head>
+  <body class="container">
+    <h4 class="head">Altair ServiceNow</h4>
+	<img class="logo" src="./assets/logo.svg">
+    <div role="main" class="altair-form">
+      <form>
+	    <button class="btn btn-primary" id="button_inc">Create Incident</button>
+		<button class="btn btn-primary" id="button_enh">Create Enhancement</button>
+		<button class="btn btn-primary" id="button_charm">Visit Charm</button>
+	    <label class="select-label" for="AltairUI">Select Altair Environment:</label>
+        <select id="AltairUI">
+          <option value="PP1">Production(PP1)</option>
+          <option value="QP1">Quality - For Solved Tickets Testing(QP1)</option>
+          <option value="QP2">QUALITY - For Solved Tickets Testing(QP2)</option>		  
+          <option value="DP1">Development - Due To Tickets From ServiceNow(DP1)</option>
+		  <option value="DP2">Development - For Enhancements And Rollout Implementation(DP2)</option>
+          <option value="SP2">Sandbox(SP2)</option>
+          <option value="UP1">User Acceptance Test(UP1)</option>
+		  <option value="UP2">User Acceptance Test(UP2)</option>
+        </select>
+        <button class="btn btn-primary" id="button_go">Go!</button>       
+      </form>
+    </div>
+  </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

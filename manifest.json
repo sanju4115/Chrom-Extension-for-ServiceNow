@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Service Now For Altair",
+  "short_name": "Search",
+  "description": "Searches/Creates Incidents and Enhancements",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "browser_action": {
+     "default_icon": "publicis.png",
+     "default_popup": "popup.html"
+  }, 	
+  "icons": {
+    "16": "assets/search.png"
+  },
+  "background": {"page": "background.html"}
+}

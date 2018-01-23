@@ -1,0 +1,148 @@
+/**
+ * Copyright (c) 2012 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+body {
+  margin: 5px 10px 10px;
+}
+
+.logo{
+	position: fixed;
+    top: 0;
+    left: 5%;
+	width: 55px;
+}
+
+.select-label{
+	color: #6f5527;
+    margin: 10px 0 5px 0;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #906f19;
+    border-color: #9d833e;
+}
+
+select#AltairUI {
+    /* line-height: 24px; */
+    height: 30px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    background-color: rgba(182,153,73,1);
+    color: #fff;
+    padding-left: 5px;
+    width: 320px;
+    display: block;
+}
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(./assets/GothamNarrow-Book.otf);
+}
+
+*{
+	font-family: gotham;
+}
+
+h4.head {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 0 0;
+	color: #8a6d3b;
+	letter-spacing: 2px;
+}
+
+
+
+label{
+	font-weight: 500;
+    font-size: 17px
+}
+
+.altair-form {
+    padding: 15px;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+	margin-top: 18px;
+	background: rgba(216,200,157,1);
+	background: -moz-linear-gradient(-45deg, rgba(216,200,157,1) 0%, rgba(216,200,157,1) 23%, rgba(182,153,73,1) 61%, rgba(182,153,73,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(216,200,157,1)), color-stop(23%, rgba(216,200,157,1)), color-stop(61%, rgba(182,153,73,1)), color-stop(100%, rgba(182,153,73,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(216,200,157,1) 0%, rgba(216,200,157,1) 23%, rgba(182,153,73,1) 61%, rgba(182,153,73,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(216,200,157,1) 0%, rgba(216,200,157,1) 23%, rgba(182,153,73,1) 61%, rgba(182,153,73,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(216,200,157,1) 0%, rgba(216,200,157,1) 23%, rgba(182,153,73,1) 61%, rgba(182,153,73,1) 100%);
+}
+
+.btn-primary{
+	margin-top: 10px;
+	margin-right: 20px;
+	background-color:#9d833e;
+	border:none;
+}
+
+h1 {
+  color: #53637D;
+  font: 26px/1.2 Helvetica, sans-serif;
+  font-size: 200%;
+  margin: 0;
+  padding-bottom: 1px;
+  text-shadow: white 0 1px 2px;
+}
+
+label {
+  color: #222;
+  font: 18px/1.4 Helvetica, sans-serif;
+  margin: 0.5em 0;
+  display: inline-block;
+}
+
+form {
+  transition: transform 0.25s ease;
+  width: 563px;
+}
+
+button {
+  display: block;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-user-select: none;
+  background: -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  border: 1px solid #AAA;
+  color: #444;
+  margin-bottom: 0;
+  min-width: 4em;
+  padding: 3px 12px;
+  margin-top: 0;
+  font-size: 1.1em;
+}
+
+.overlay {
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  padding: 20px;
+  margin: -40px 0 0 -270px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  color: #FFF;
+  font: 1.5em/1.2 Helvetica Neue, sans-serif;
+  transition: all 1.0s ease;
+  transform: scale(0);
+}
+
+.overlay a {
+  color:  #FFF;
+}
+
+.overlay.visible {
+  opacity: 1;
+  transform: scale(1);
+}
